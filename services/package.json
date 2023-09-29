@@ -1,0 +1,14 @@
+{
+  "name": "services",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@monorepo/b": "workspace:libraries/b"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

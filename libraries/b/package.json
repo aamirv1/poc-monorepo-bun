@@ -1,0 +1,15 @@
+{
+  "name": "@monorepo/b",
+  "version": "0.0.1",
+  "module": "index.ts",
+  "dependencies": {
+    "@monorepo/a": "workspace:libraries/a",
+    "axios": "^1.5.1",
+    "bun-types": "latest",
+    "zod": "3"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@faker-js/faker": "^8.1.0"
+  }
+}
